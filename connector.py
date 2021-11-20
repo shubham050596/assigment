@@ -23,7 +23,7 @@ ans = df.loc[df['Country'] == "IND"]
 
 def show_data(country):
     data = df.loc[df['Country'] == country]
-    print(data)
+    print(datacollection)
 
 
 def get_file(country):
